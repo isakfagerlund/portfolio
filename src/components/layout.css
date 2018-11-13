@@ -622,11 +622,3 @@ pre tt:after {
     font-size: 100%;
   }
 }
-
-.project {
-  border-radius: 0px 0px 4px 4px;
-  padding: 50px;
-  border-top: 2px solid #2F80ED;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
-  margin-bottom: 24px;
-}

@@ -1,10 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 
-const Header = () => (
+const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'linear-gradient(90deg, #32AEE3 0%, #2F80ED 100%)',
+      background: 'rebeccapurple',
       marginBottom: '1.45rem',
     }}
   >
@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Isak Fagerlund
+          {siteTitle}
         </Link>
       </h1>
     </div>
