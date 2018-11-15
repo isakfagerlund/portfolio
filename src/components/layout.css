@@ -1,10 +1,13 @@
 html {
   font-family: sans-serif;
+  height: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
+  height: 100%;
   margin: 0;
+  background: #6977DE;
 }
 article,
 aside,
@@ -197,8 +200,9 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: #F4F4F4;
+  font-family: 'Roboto', serif;
+  padding: 50px;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
